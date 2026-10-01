@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-label="MyAdvisor: Checkout advisor that tells you which credit card earns the most for each purchase. Android + iOS.">
+<title>MyAdvisor: Checkout advisor that tells you which credit card earns the most for each purchase. Android + iOS.</title>
+<defs>
+  <style>
+    .sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    .arc{animation:arc 2.4s ease-in-out infinite;opacity:.25}
+    .tick{stroke-dasharray:1;stroke-dashoffset:1;animation:tick 3.6s ease-out infinite}
+    @keyframes arc{30%,60%{opacity:1}}
+    @keyframes tick{0%{stroke-dashoffset:1}25%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+    @media (prefers-reduced-motion: reduce){.arc{animation:none;opacity:1}.tick{animation:none;stroke-dashoffset:0}}
+  </style>
+  <radialGradient id="g" cx="510" cy="120" r="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#cdbdff" stop-opacity=".16"/><stop offset="1" stop-color="#cdbdff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="599" height="249" rx="18" fill="#161b17" stroke="#2c332d"/>
+<rect x=".5" y=".5" width="599" height="249" rx="18" fill="url(#g)"/>
+<rect x="0" y="34" width="4" height="40" rx="2" fill="#cdbdff"/>
+<text x="28" y="44" class="mono" font-size="12" letter-spacing="1.5" fill="#cdbdff">◆ KOTLIN MULTIPLATFORM</text>
+<text x="572" y="44" text-anchor="end" class="mono" font-size="13" fill="#8a938b">view repo ↗</text>
+<text x="28" y="86" class="sans" font-size="30" font-weight="800" fill="#e1e3de">MyAdvisor</text>
+<text x="28" y="120" class="sans" font-size="15" fill="#c0c9c0">Checkout advisor that tells you which credit</text>
+<text x="28" y="142" class="sans" font-size="15" fill="#c0c9c0">card earns the most for each purchase.</text>
+<text x="28" y="164" class="sans" font-size="15" fill="#c0c9c0">Android + iOS.</text>
+<g transform="translate(510,128)">
+    <rect x="-52" y="-32" width="104" height="66" rx="10" fill="#1d231e" stroke="#404943" transform="rotate(-14) translate(-10,6)"/>
+    <rect x="-52" y="-32" width="104" height="66" rx="10" fill="#2a2440" stroke="#cdbdff" stroke-opacity=".5" transform="rotate(-5) translate(-4,2)"/>
+    <g><animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,-14;0,0" keyTimes="0;0.25;0.7;1" dur="3.6s" repeatCount="indefinite"/>
+      <rect x="-52" y="-32" width="104" height="66" rx="10" fill="#cdbdff"/>
+      <rect x="-40" y="-18" width="18" height="13" rx="3" fill="#00000055"/>
+      <rect x="-40" y="12" width="56" height="5" rx="2.5" fill="#00000055"/>
+      <text x="40" y="-10" text-anchor="end" class="sans" font-size="11" font-weight="800" fill="#1d1638">5X</text></g>
+  </g>
+<g transform="translate(28,196)"><rect width="46" height="28" rx="14" fill="#cdbdff" fill-opacity=".1" stroke="#cdbdff" stroke-opacity=".45"/><text x="23" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#cdbdff">KMP</text></g><g transform="translate(82,196)"><rect width="96" height="28" rx="14" fill="#cdbdff" fill-opacity=".1" stroke="#cdbdff" stroke-opacity=".45"/><text x="48" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#cdbdff">Compose MP</text></g><g transform="translate(186,196)"><rect width="82" height="28" rx="14" fill="#cdbdff" fill-opacity=".1" stroke="#cdbdff" stroke-opacity=".45"/><text x="41" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#cdbdff">Room KMP</text></g><g transform="translate(276,196)"><rect width="53" height="28" rx="14" fill="#cdbdff" fill-opacity=".1" stroke="#cdbdff" stroke-opacity=".45"/><text x="26.5" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#cdbdff">Koin</text></g>
+</svg>

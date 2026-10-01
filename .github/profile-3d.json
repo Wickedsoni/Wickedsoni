@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "contribution-city.svg",
+  "backgroundColor": "#101411",
+  "foregroundColor": "#e1e3de",
+  "strongColor": "#7cdb9a",
+  "weakColor": "#8a938b",
+  "radarColor": "#7cdb9a",
+  "growingAnimation": true,
+  "contribColors": ["#1d231e", "#00522d", "#2f9c62", "#57c785", "#98f7b4"]
+}

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="Garvit Maheshwari: Android Developer · Kotlin &amp; Jetpack Compose">
+<title>Garvit Maheshwari: Android Developer · Kotlin &amp; Jetpack Compose</title>
+<defs>
+  <style>
+    .sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    .float{animation:float 6s ease-in-out infinite}
+    .shadow{animation:shadow 6s ease-in-out infinite;transform-origin:922px 432px}
+    .tile{animation:heat 3.2s ease-in-out infinite;opacity:.35}
+    .pulse{animation:pulse 1.6s ease-in-out infinite}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    .glow{animation:glow 7s ease-in-out infinite}
+    @keyframes float{50%{transform:translateY(-12px)}}
+    @keyframes shadow{50%{transform:scale(.82);opacity:.35}}
+    @keyframes heat{0%,100%{opacity:.35}25%{opacity:1}}
+    @keyframes pulse{50%{opacity:.25}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes glow{50%{opacity:.55}}
+    @media (prefers-reduced-motion: reduce){.float,.shadow,.tile,.pulse,.blink,.glow{animation:none}.tile{opacity:.85}}
+  </style>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#7cdb9a" opacity=".13"/></pattern>
+  <radialGradient id="halo" cx="922" cy="238" r="380" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7cdb9a" stop-opacity=".22"/><stop offset="1" stop-color="#7cdb9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="fade" cx="600" cy="230" r="700" gradientUnits="userSpaceOnUse"><stop offset=".55" stop-color="#101411" stop-opacity="0"/><stop offset="1" stop-color="#101411"/></radialGradient>
+  <linearGradient id="nameFill" x1="0" x2="1"><stop offset="0" stop-color="#e1e3de"/><stop offset=".45" stop-color="#e1e3de"/><stop offset=".5" stop-color="#ffffff"/><stop offset=".55" stop-color="#7cdb9a"/><stop offset="1" stop-color="#7cdb9a"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1;0.6;0.6" keyTimes="0;0.35;1" dur="7s" repeatCount="indefinite"/></linearGradient>
+  <clipPath id="far"><rect x="0" y="0" width="1200" height="238"/></clipPath>
+  <clipPath id="near"><rect x="0" y="238" width="1200" height="222"/></clipPath>
+  <clipPath id="rc0"><rect x="190.8" y="290" height="32" width="0">
+  <animate attributeName="width" values="0;348;348;0;0" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="rc1"><rect x="190.8" y="290" height="32" width="0">
+  <animate attributeName="width" values="0;308;308;0;0" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="3s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="rc2"><rect x="190.8" y="290" height="32" width="0">
+  <animate attributeName="width" values="0;321;321;0;0" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="6s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="rc3"><rect x="190.8" y="290" height="32" width="0">
+  <animate attributeName="width" values="0;361;361;0;0" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="9s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="rc4"><rect x="190.8" y="290" height="32" width="0">
+  <animate attributeName="width" values="0;334;334;0;0" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1200" height="460" rx="20" fill="#101411"/>
+<rect width="1200" height="460" rx="20" fill="url(#dots)"/>
+<rect width="1200" height="460" rx="20" fill="url(#halo)" class="glow"/>
+<rect width="1200" height="460" rx="20" fill="url(#fade)"/>
+
+<g stroke="#7cdb9a" stroke-width="2" fill="none" opacity=".7">
+  <path d="M24,48 V24 H48"/><path d="M1152,24 H1176 V48"/><path d="M24,412 V436 H48"/><path d="M1152,436 H1176 V412"/>
+</g>
+<text x="40" y="44" class="mono" font-size="12" fill="#8a938b" letter-spacing="2">GM // ANDROID.DEV</text>
+<text x="1160" y="44" text-anchor="end" class="mono" font-size="12" fill="#8a938b" letter-spacing="2">SYS.ONLINE <tspan fill="#3ddc84" class="blink">●</tspan></text>
+<text x="40" y="426" class="mono" font-size="12" fill="#8a938b" letter-spacing="2">12.82°N · 80.04°E</text>
+<text x="1160" y="426" text-anchor="end" class="mono" font-size="12" fill="#8a938b" letter-spacing="2">GARVITMAHESHWARI.IN</text>
+
+<text x="72" y="140" class="mono" font-size="18" fill="#7cdb9a">$ whoami<tspan class="blink">_</tspan></text>
+<text x="72" y="212" class="sans" font-size="60" font-weight="800" letter-spacing="-1" fill="url(#nameFill)">Garvit Maheshwari</text>
+<text x="72" y="254" class="sans" font-size="22" fill="#c0c9c0">Android Developer · Kotlin &amp; Jetpack Compose</text>
+<text x="72" y="312" class="mono" font-size="22" fill="#8a938b" textLength="118.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">&gt; garvit </text>
+<g clip-path="url(#rc0)"><text x="190.8" y="312" class="mono" font-size="22" fill="#7cdb9a" textLength="343.2" lengthAdjust="spacingAndGlyphs">builds offline-first apps.</text></g>
+<rect y="294" width="11" height="24" fill="#7cdb9a" opacity="0" x="190.8">
+  <animate attributeName="x" values="190.8;538.8;538.8;190.8;190.8" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.07;0.12;0.19;0.2;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+</rect>
+<g clip-path="url(#rc1)"><text x="190.8" y="312" class="mono" font-size="22" fill="#7cdb9a" textLength="303.6" lengthAdjust="spacingAndGlyphs">writes testable Kotlin.</text></g>
+<rect y="294" width="11" height="24" fill="#7cdb9a" opacity="0" x="190.8">
+  <animate attributeName="x" values="190.8;498.8;498.8;190.8;190.8" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="3s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.07;0.12;0.19;0.2;1" dur="15s" begin="3s" repeatCount="indefinite"/>
+</rect>
+<g clip-path="url(#rc2)"><text x="190.8" y="312" class="mono" font-size="22" fill="#7cdb9a" textLength="316.8" lengthAdjust="spacingAndGlyphs">designs with Material 3.</text></g>
+<rect y="294" width="11" height="24" fill="#7cdb9a" opacity="0" x="190.8">
+  <animate attributeName="x" values="190.8;511.8;511.8;190.8;190.8" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.07;0.12;0.19;0.2;1" dur="15s" begin="6s" repeatCount="indefinite"/>
+</rect>
+<g clip-path="url(#rc3)"><text x="190.8" y="312" class="mono" font-size="22" fill="#7cdb9a" textLength="356.4" lengthAdjust="spacingAndGlyphs">ships with Jetpack Compose.</text></g>
+<rect y="294" width="11" height="24" fill="#7cdb9a" opacity="0" x="190.8">
+  <animate attributeName="x" values="190.8;551.8;551.8;190.8;190.8" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="9s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.07;0.12;0.19;0.2;1" dur="15s" begin="9s" repeatCount="indefinite"/>
+</rect>
+<g clip-path="url(#rc4)"><text x="190.8" y="312" class="mono" font-size="22" fill="#7cdb9a" textLength="330.0" lengthAdjust="spacingAndGlyphs">keeps architecture clean.</text></g>
+<rect y="294" width="11" height="24" fill="#7cdb9a" opacity="0" x="190.8">
+  <animate attributeName="x" values="190.8;524.8;524.8;190.8;190.8" keyTimes="0;0.07;0.16;0.19;1" dur="15s" begin="12s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;1;1;0;0" keyTimes="0;0.07;0.12;0.19;0.2;1" dur="15s" begin="12s" repeatCount="indefinite"/>
+</rect>
+<g transform="translate(72,356)">
+  <rect width="206" height="34" rx="17" fill="#161b17" stroke="#404943" stroke-opacity="1"/>
+  
+  <text x="14" y="22" class="sans" font-size="13.5" fill="#c0c9c0">B.Tech CSE · SRM IST '27</text></g>
+<g transform="translate(288,356)">
+  <rect width="132" height="34" rx="17" fill="#161b17" stroke="#404943" stroke-opacity="1"/>
+  
+  <text x="14" y="22" class="sans" font-size="13.5" fill="#c0c9c0">Chennai, India</text></g>
+<g transform="translate(430,356)">
+  <rect width="244" height="34" rx="17" fill="#00522d" stroke="#7cdb9a" stroke-opacity="0.6"/>
+  <circle cx="18" cy="17" r="4.5" fill="#3ddc84" class="pulse"/>
+  <text x="30" y="22" class="sans" font-size="13.5" fill="#98f7b4">Open to Android / SDE roles</text></g>
+
+<ellipse cx="922" cy="432" rx="96" ry="11" fill="#000" opacity=".6" class="shadow"/>
+<g clip-path="url(#far)">
+  <ellipse cx="922" cy="238" rx="210" ry="58" fill="none" stroke="#7cdb9a" stroke-opacity=".28" stroke-dasharray="3 7"/>
+  <g opacity="0.45"><animateMotion dur="16s" begin="0s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#14111f" stroke="#7f52ff" stroke-width="1.5"/><g transform="translate(-8,-8) scale(0.667)"><defs><linearGradient id="kt" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7f52ff"/><stop offset="0.5" stop-color="#c711e1"/><stop offset="1" stop-color="#e54857"/></linearGradient></defs><path d="M24 24H0V0h24L12 12Z" fill="url(#kt)"/></g></g>
+<g opacity="0.45"><animateMotion dur="16s" begin="-4s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#0f1a13" stroke="#3ddc84" stroke-width="1.5"/><path d="M-11,6 a11,11 0 0,1 22,0 z" fill="#3ddc84"/><circle cx="-4.5" cy="1" r="1.6" fill="#0f1a13"/><circle cx="4.5" cy="1" r="1.6" fill="#0f1a13"/><path d="M-7,-6 l-3,-5 M7,-6 l3,-5" stroke="#3ddc84" stroke-width="1.6" stroke-linecap="round"/></g>
+<g opacity="0.45"><animateMotion dur="16s" begin="-8s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#0f1520" stroke="#4285f4" stroke-width="1.5"/><path d="M0,-11 9.5,-5.5 9.5,5.5 0,11 -9.5,5.5 -9.5,-5.5Z" fill="none" stroke="#a6c8ff" stroke-width="2"/><path d="M0,-5 4.3,-2.5 4.3,2.5 0,5 -4.3,2.5 -4.3,-2.5Z" fill="#4285f4"/></g>
+<g opacity="0.45"><animateMotion dur="16s" begin="-12s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#141a15" stroke="#7cdb9a" stroke-width="1.5"/><text y="5" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#7cdb9a">M3</text></g>
+</g>
+
+<g class="float">
+  <g transform="translate(838,62) skewY(-6)">
+    <g transform="translate(-14,10)"><rect width="170" height="330" rx="28" fill="#0a0d0b" stroke="#1f2621" stroke-width="1.5"/></g>
+    <g transform="translate(-7,5)"><rect width="170" height="330" rx="28" fill="#141915" stroke="#2c332d" stroke-width="1.5"/></g>
+    <rect width="170" height="330" rx="28" fill="#1d231e" stroke="#404943" stroke-width="1.5"/>
+    <rect x="7" y="7" width="156" height="316" rx="22" fill="#0b0f0c"/>
+    <text x="22" y="30" class="sans" font-size="10" font-weight="600" fill="#c0c9c0">9:41</text>
+    <rect x="70" y="18" width="30" height="8" rx="4" fill="#000"/>
+    <g fill="#c0c9c0"><rect x="128" y="22" width="3" height="5" rx="1"/><rect x="133" y="20" width="3" height="7" rx="1"/><rect x="138" y="18" width="3" height="9" rx="1"/><rect x="144" y="18" width="10" height="9" rx="2" fill="none" stroke="#c0c9c0"/></g>
+    <text x="16" y="54" class="sans" font-size="13" font-weight="700" fill="#e1e3de">WiFiLens</text>
+    <text x="154" y="54" text-anchor="end" class="mono" font-size="9" fill="#7cdb9a">-42 dBm</text>
+    <rect x="13" y="66" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.40s"/><rect x="37" y="66" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.36s"/><rect x="61" y="66" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.40s"/><rect x="85" y="66" width="21" height="21" rx="4" fill="#404943"/><rect x="109" y="66" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.65s"/><rect x="133" y="66" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.80s"/><rect x="13" y="90" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.25s"/><rect x="37" y="90" width="21" height="21" rx="4" fill="#7cdb9a" class="tile" style="animation-delay:0.18s"/><rect x="61" y="90" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.25s"/><rect x="85" y="90" width="21" height="21" rx="4" fill="#404943"/><rect x="109" y="90" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.57s"/><rect x="133" y="90" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.74s"/><rect x="13" y="114" width="21" height="21" rx="4" fill="#7cdb9a" class="tile" style="animation-delay:0.18s"/><rect x="37" y="114" width="21" height="21" rx="4" fill="#7cdb9a" class="tile" style="animation-delay:0.00s"/><rect x="61" y="114" width="21" height="21" rx="4" fill="#7cdb9a" class="tile" style="animation-delay:0.18s"/><rect x="85" y="114" width="21" height="21" rx="4" fill="#404943"/><rect x="109" y="114" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.54s"/><rect x="133" y="114" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.72s"/><rect x="13" y="138" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.25s"/><rect x="37" y="138" width="21" height="21" rx="4" fill="#7cdb9a" class="tile" style="animation-delay:0.18s"/><rect x="61" y="138" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.25s"/><rect x="85" y="138" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.40s"/><rect x="109" y="138" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.57s"/><rect x="133" y="138" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.74s"/><rect x="13" y="162" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.40s"/><rect x="37" y="162" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.36s"/><rect x="61" y="162" width="21" height="21" rx="4" fill="#57c785" class="tile" style="animation-delay:0.40s"/><rect x="85" y="162" width="21" height="21" rx="4" fill="#404943"/><rect x="109" y="162" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.65s"/><rect x="133" y="162" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.80s"/><rect x="13" y="186" width="21" height="21" rx="4" fill="#404943"/><rect x="37" y="186" width="21" height="21" rx="4" fill="#404943"/><rect x="61" y="186" width="21" height="21" rx="4" fill="#404943"/><rect x="85" y="186" width="21" height="21" rx="4" fill="#2f9c62" class="tile" style="animation-delay:0.65s"/><rect x="109" y="186" width="21" height="21" rx="4" fill="#404943"/><rect x="133" y="186" width="21" height="21" rx="4" fill="#404943"/><rect x="13" y="210" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.74s"/><rect x="37" y="210" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.72s"/><rect x="61" y="210" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.74s"/><rect x="85" y="210" width="21" height="21" rx="4" fill="#c8b45a" class="tile" style="animation-delay:0.80s"/><rect x="109" y="210" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:0.90s"/><rect x="133" y="210" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:1.02s"/><rect x="13" y="234" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:0.92s"/><rect x="37" y="234" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:0.90s"/><rect x="61" y="234" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:0.92s"/><rect x="85" y="234" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:0.97s"/><rect x="109" y="234" width="21" height="21" rx="4" fill="#f2c46d" class="tile" style="animation-delay:1.05s"/><rect x="133" y="234" width="21" height="21" rx="4" fill="#ffb4a6" class="tile" style="animation-delay:1.15s"/>
+    <circle cx="47.5" cy="124.5" r="5" fill="#fff"/>
+    <circle cx="47.5" cy="124.5" r="5" fill="none" stroke="#fff" stroke-width="2">
+      <animate attributeName="r" values="5;48" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="16" y="268" width="138" height="34" rx="17" fill="#00522d"/>
+    <text x="85" y="289" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#98f7b4">Find best spot</text>
+    <rect x="62" y="312" width="46" height="4" rx="2" fill="#8a938b"/>
+  </g>
+</g>
+<g clip-path="url(#near)">
+  <ellipse cx="922" cy="238" rx="210" ry="58" fill="none" stroke="#7cdb9a" stroke-opacity=".5" stroke-dasharray="3 7"/>
+  <g opacity="1"><animateMotion dur="16s" begin="0s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#14111f" stroke="#7f52ff" stroke-width="1.5"/><g transform="translate(-8,-8) scale(0.667)"><defs><linearGradient id="kt" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7f52ff"/><stop offset="0.5" stop-color="#c711e1"/><stop offset="1" stop-color="#e54857"/></linearGradient></defs><path d="M24 24H0V0h24L12 12Z" fill="url(#kt)"/></g></g>
+<g opacity="1"><animateMotion dur="16s" begin="-4s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#0f1a13" stroke="#3ddc84" stroke-width="1.5"/><path d="M-11,6 a11,11 0 0,1 22,0 z" fill="#3ddc84"/><circle cx="-4.5" cy="1" r="1.6" fill="#0f1a13"/><circle cx="4.5" cy="1" r="1.6" fill="#0f1a13"/><path d="M-7,-6 l-3,-5 M7,-6 l3,-5" stroke="#3ddc84" stroke-width="1.6" stroke-linecap="round"/></g>
+<g opacity="1"><animateMotion dur="16s" begin="-8s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#0f1520" stroke="#4285f4" stroke-width="1.5"/><path d="M0,-11 9.5,-5.5 9.5,5.5 0,11 -9.5,5.5 -9.5,-5.5Z" fill="none" stroke="#a6c8ff" stroke-width="2"/><path d="M0,-5 4.3,-2.5 4.3,2.5 0,5 -4.3,2.5 -4.3,-2.5Z" fill="#4285f4"/></g>
+<g opacity="1"><animateMotion dur="16s" begin="-12s" repeatCount="indefinite" path="M712,238 a210,58 0 1,0 420,0 a210,58 0 1,0 -420,0"/><circle r="20" fill="#141a15" stroke="#7cdb9a" stroke-width="1.5"/><text y="5" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#7cdb9a">M3</text></g>
+</g>
+</svg>

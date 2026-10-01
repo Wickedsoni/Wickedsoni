@@ -1,0 +1,76 @@
+# Rebuilds every generated image on the profile once a day:
+#   assets/*.svg            hand-made art from scripts/build-art.mjs (only changes when you edit its data)
+#   assets/generated/*.svg  stats, languages, streak, 3D contribution city, contribution snake
+#
+# Optional secret PROFILE_TOKEN (classic PAT: read:user, repo) adds private-repo languages and
+# contributions. Without it the default token is used and only public activity is counted.
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "17 0 * * *" # 05:47 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/profile-3d.json", ".github/workflows/refresh-profile.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Hand-made art
+        run: node scripts/build-art.mjs
+
+      - name: Stats, languages and streak cards
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: node scripts/stats.mjs
+
+      - name: 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d.json
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#7cdb9a&color_dots=#1d231e,#00522d,#2f9c62,#57c785,#98f7b4
+            dist/snake-light.svg?palette=github-light&color_snake=#006d3d&color_dots=#ebedf0,#c2f0d1,#7cdb9a,#2f9c62,#006d3d
+
+      - name: Collect generated files
+        run: |
+          mkdir -p assets/generated
+          mv profile-3d-contrib/contribution-city.svg assets/generated/
+          mv dist/snake-dark.svg dist/snake-light.svg assets/generated/
+          rm -rf profile-3d-contrib dist
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh profile images"
+            git push
+          fi

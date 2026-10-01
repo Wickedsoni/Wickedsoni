@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-label="Demo Bank: Kotlin/Kobweb banking app built to show unit, system, regression and i18n testing end to end.">
+<title>Demo Bank: Kotlin/Kobweb banking app built to show unit, system, regression and i18n testing end to end.</title>
+<defs>
+  <style>
+    .sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    .arc{animation:arc 2.4s ease-in-out infinite;opacity:.25}
+    .tick{stroke-dasharray:1;stroke-dashoffset:1;animation:tick 3.6s ease-out infinite}
+    @keyframes arc{30%,60%{opacity:1}}
+    @keyframes tick{0%{stroke-dashoffset:1}25%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+    @media (prefers-reduced-motion: reduce){.arc{animation:none;opacity:1}.tick{animation:none;stroke-dashoffset:0}}
+  </style>
+  <radialGradient id="g" cx="510" cy="120" r="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffb4a6" stop-opacity=".16"/><stop offset="1" stop-color="#ffb4a6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="599" height="249" rx="18" fill="#161b17" stroke="#2c332d"/>
+<rect x=".5" y=".5" width="599" height="249" rx="18" fill="url(#g)"/>
+<rect x="0" y="34" width="4" height="40" rx="2" fill="#ffb4a6"/>
+<text x="28" y="44" class="mono" font-size="12" letter-spacing="1.5" fill="#ffb4a6">◆ SOFTWARE TESTING</text>
+<text x="572" y="44" text-anchor="end" class="mono" font-size="13" fill="#8a938b">view repo ↗</text>
+<text x="28" y="86" class="sans" font-size="30" font-weight="800" fill="#e1e3de">Demo Bank</text>
+<text x="28" y="120" class="sans" font-size="15" fill="#c0c9c0">Kotlin/Kobweb banking app built to show</text>
+<text x="28" y="142" class="sans" font-size="15" fill="#c0c9c0">unit, system, regression and i18n testing</text>
+<text x="28" y="164" class="sans" font-size="15" fill="#c0c9c0">end to end.</text>
+<g transform="translate(450,60)">
+    <g transform="translate(0,0)">
+      <rect width="24" height="24" rx="6" fill="none" stroke="#ffb4a6" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M6,12 l4,4 l8,-9" fill="none" stroke="#ffb4a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="tick" style="animation-delay:0s"/>
+      <rect x="36" y="8" width="86" height="8" rx="4" fill="#404943"/></g><g transform="translate(0,34)">
+      <rect width="24" height="24" rx="6" fill="none" stroke="#ffb4a6" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M6,12 l4,4 l8,-9" fill="none" stroke="#ffb4a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="tick" style="animation-delay:0.45s"/>
+      <rect x="36" y="8" width="64" height="8" rx="4" fill="#404943"/></g><g transform="translate(0,68)">
+      <rect width="24" height="24" rx="6" fill="none" stroke="#ffb4a6" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M6,12 l4,4 l8,-9" fill="none" stroke="#ffb4a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="tick" style="animation-delay:0.9s"/>
+      <rect x="36" y="8" width="92" height="8" rx="4" fill="#404943"/></g><g transform="translate(0,102)">
+      <rect width="24" height="24" rx="6" fill="none" stroke="#ffb4a6" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M6,12 l4,4 l8,-9" fill="none" stroke="#ffb4a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="tick" style="animation-delay:1.35s"/>
+      <rect x="36" y="8" width="72" height="8" rx="4" fill="#404943"/></g>
+  </g>
+<g transform="translate(28,196)"><rect width="67" height="28" rx="14" fill="#ffb4a6" fill-opacity=".1" stroke="#ffb4a6" stroke-opacity=".45"/><text x="33.5" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#ffb4a6">Kobweb</text></g><g transform="translate(103,196)"><rect width="74" height="28" rx="14" fill="#ffb4a6" fill-opacity=".1" stroke="#ffb4a6" stroke-opacity=".45"/><text x="37" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#ffb4a6">JUnit 5</text></g><g transform="translate(185,196)"><rect width="82" height="28" rx="14" fill="#ffb4a6" fill-opacity=".1" stroke="#ffb4a6" stroke-opacity=".45"/><text x="41" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#ffb4a6">Selenium</text></g><g transform="translate(275,196)"><rect width="96" height="28" rx="14" fill="#ffb4a6" fill-opacity=".1" stroke="#ffb4a6" stroke-opacity=".45"/><text x="48" y="18.5" text-anchor="middle" class="mono" font-size="12" fill="#ffb4a6">Material 3</text></g>
+</svg>
