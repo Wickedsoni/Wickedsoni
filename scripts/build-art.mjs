@@ -35,7 +35,7 @@ const ME = {
     "ships with Jetpack Compose.",
     "keeps architecture clean.",
   ],
-  chips: ["B.Tech CSE · SRM IST '27", "Chennai, India", "Open to Android / SDE roles"],
+  chips: ["B.Tech CSE · Class of '27", "Chennai, India", "Open to Android / SDE roles"],
   site: "garvitmaheshwari.in",
 };
 
@@ -197,7 +197,7 @@ function hero() {
 </g>
 <text x="40" y="44" class="mono" font-size="12" fill="${C.dim}" letter-spacing="2">GM // ANDROID.DEV</text>
 <text x="${W - 40}" y="44" text-anchor="end" class="mono" font-size="12" fill="${C.dim}" letter-spacing="2">SYS.ONLINE <tspan fill="${C.android}" class="blink">●</tspan></text>
-<text x="40" y="${H - 34}" class="mono" font-size="12" fill="${C.dim}" letter-spacing="2">12.82°N · 80.04°E</text>
+<text x="40" y="${H - 34}" class="mono" font-size="12" fill="${C.dim}" letter-spacing="2">13.08°N · 80.27°E</text>
 <text x="${W - 40}" y="${H - 34}" text-anchor="end" class="mono" font-size="12" fill="${C.dim}" letter-spacing="2">${ME.site.toUpperCase()}</text>
 
 <text x="${x0}" y="140" class="mono" font-size="18" fill="${C.primary}">$ whoami<tspan class="blink">_</tspan></text>

@@ -16,7 +16,7 @@
 ```kotlin
 object Garvit : AndroidDeveloper() {
     val basedIn       = "Chennai, India"
-    val studying      = "B.Tech CSE (Software Engineering) @ SRM IST, class of 2027"
+    val studying      = "B.Tech CSE (Software Engineering), class of 2027"
     val building      = "WiFiLens: an offline Wi-Fi analyzer that predicts coverage from a floor plan"
     val stack         = listOf("Kotlin", "Jetpack Compose", "Coroutines + Flow", "Room", "Hilt", "Koin", "KMP")
     val architecture  = "Clean Architecture + MVI, multi-module, pure-Kotlin cores that test without a device"
@@ -82,9 +82,9 @@ object Garvit : AndroidDeveloper() {
 
 - **Trainee Intern, Cloud CRM & SaaS Development · Salesforce** (Jan 2026, remote). Apex, Lightning components, Salesforce certified.
 - **Core organiser · Day Zero Hackathon (CODENEX).** 36-hour national hackathon, 3000+ teams.
-- **Member · HackTheBox SRMIST (StickyBit), 1.5 years.** CTFs, security workshops, organising committee for the annual CTF.
-- **Non-Technical Head · IEEE GRSS SRMIST.** Corporate outreach, team coordination, event logistics.
-- **Trainee Lead · SRM Alumni Affairs, 1.5 years.** Alumni engagement, photography, membership drives.
+- **Member · HackTheBox university chapter (StickyBit), 1.5 years.** CTFs, security workshops, organising committee for the annual CTF.
+- **Non-Technical Head · IEEE GRSS student chapter.** Corporate outreach, team coordination, event logistics.
+- **Trainee Lead · Alumni Affairs, 1.5 years.** Alumni engagement, photography, membership drives.
 
 </details>
 
