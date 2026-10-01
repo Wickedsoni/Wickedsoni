@@ -32,8 +32,10 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Hand-made art
-        run: node scripts/build-art.mjs
+      - name: Hand-made art and Ping
+        run: |
+          node scripts/build-art.mjs
+          node scripts/build-ping.mjs
 
       - name: Stats, languages and streak cards
         env:

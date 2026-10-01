@@ -88,11 +88,29 @@ object Garvit : AndroidDeveloper() {
 
 </details>
 
+<details>
+<summary><b>Meet Ping, my mascot</b></summary>
+<br>
+
+<p align="center">
+  <img src="assets/ping/ping-idle.svg" alt="Ping idle" width="19%">
+  <img src="assets/ping/ping-wave.svg" alt="Ping waving" width="19%">
+  <img src="assets/ping/ping-code.svg" alt="Ping coding" width="19%">
+  <img src="assets/ping/ping-success.svg" alt="Ping celebrating" width="19%">
+  <img src="assets/ping/ping-error.svg" alt="Ping glitching" width="19%">
+</p>
+
+<p align="center">A living signal made of code brackets, with a Wi-Fi antenna and a terminal cursor for a mouth. It shows up across my repos: coding when work is in progress, celebrating when tests pass, glitching when something breaks.</p>
+
+</details>
+
 <img src="assets/h-06.svg" alt="06 connect" width="100%">
+
+<p align="center"><img src="assets/ping/ping-wave.svg" alt="Ping waving hello" width="180"></p>
 
 <p align="center">
   I'm looking for <b>Android or SDE roles</b> where I can learn from strong engineers and ship real products.<br>
   The fastest way to reach me is <a href="mailto:wickedsoni27@gmail.com">wickedsoni27@gmail.com</a>, or have a look around <a href="https://garvitmaheshwari.in">garvitmaheshwari.in</a>.
 </p>
 
-<p align="center"><sub>Images are self-hosted SVGs, redrawn daily by <a href=".github/workflows/refresh-profile.yml">GitHub Actions</a>.</sub></p>
+<p align="center"><img src="assets/ping/ping-code.svg" alt="" width="56"><br><sub>Images are self-hosted SVGs, redrawn daily by <a href=".github/workflows/refresh-profile.yml">GitHub Actions</a>.</sub></p>

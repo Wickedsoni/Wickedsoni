@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Demo Bank: A Kotlin/Kobweb banking app built to show software testing end to end.">
+<title>Demo Bank: A Kotlin/Kobweb banking app built to show software testing end to end.</title>
+<defs><style>.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
+  <linearGradient id="s-neon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#98f7b4"/><stop offset="1" stop-color="#2f9c62"/></linearGradient>
+  <linearGradient id="s-core" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d231e"/><stop offset="1" stop-color="#0b0f0c"/></linearGradient>
+  <filter id="s-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="s-soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feComponentTransfer in="b" result="b2"><feFuncA type="linear" slope=".55"/></feComponentTransfer><feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="s-tintA"><feFlood flood-color="#ff6b8b"/><feComposite operator="in" in2="SourceAlpha"/></filter>
+  <filter id="s-tintB"><feFlood flood-color="#5ce1ff"/><feComposite operator="in" in2="SourceAlpha"/></filter>
+  <g id="s-body">
+  <g class="s-thrust" fill="none" stroke="#7cdb9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110,172 l10,7 l10,-7" opacity=".8"/><path d="M113,183 l7,5 l7,-5" opacity=".5"/><path d="M116,193 l4,3 l4,-3" opacity=".3"/>
+  </g>
+  <rect x="118" y="70" width="4" height="18" rx="2" fill="#404943"/>
+  <path d="M110.10,60.10 A14,14 0 0 1 129.90,60.10" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="s-arc" style="animation-delay:0s"/><path d="M103.03,53.03 A24,24 0 0 1 136.97,53.03" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="s-arc" style="animation-delay:0.25s"/><path d="M95.96,45.96 A34,34 0 0 1 144.04,45.96" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="s-arc" style="animation-delay:0.5s"/>
+  <circle cx="120" cy="70" r="6" fill="#98f7b4" filter="url(#s-glow)"/>
+  <rect x="72" y="86" width="96" height="78" rx="24" fill="url(#s-core)" stroke="#2c332d" stroke-width="2"/>
+  <rect x="82" y="100" width="76" height="38" rx="14" fill="#050806" stroke="#7cdb9a" stroke-opacity=".4" stroke-width="1.5"/>
+  <rect x="86" y="103" width="30" height="5" rx="2.5" fill="#fff" opacity=".06"/>
+  <g fill="#98f7b4" stroke="#98f7b4" filter="url(#s-glow)"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M96,124 l7,-9 l7,9"/><path d="M130,124 l7,-9 l7,9"/></g></g>
+  <rect x="113" y="148" width="14" height="4" rx="2" fill="#7cdb9a" class="s-cursor"/>
+  <path d="M66,80 L42,124 L66,168" fill="none" stroke="url(#s-neon)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#s-soft)"/>
+  <path d="M174,80 L198,124 L174,168" fill="none" stroke="url(#s-neon)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#s-soft)"/>
+  <g class="s-cheerL"><rect x="21" y="69" width="18" height="18" rx="6" fill="#1d231e" stroke="#7cdb9a" stroke-width="2.5"/><circle cx="30" cy="78" r="2.5" fill="#98f7b4"/></g><g class="s-cheerR"><rect x="201" y="69" width="18" height="18" rx="6" fill="#1d231e" stroke="#7cdb9a" stroke-width="2.5"/><circle cx="210" cy="78" r="2.5" fill="#98f7b4"/></g></g></defs>
+
+  <rect width="1280" height="640" fill="#101411"/>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#7cdb9a" opacity=".12"/></pattern>
+  <rect width="1280" height="640" fill="url(#dots)"/>
+  <radialGradient id="halo" cx="980" cy="320" r="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffb4a6" stop-opacity=".22"/><stop offset="1" stop-color="#ffb4a6" stop-opacity="0"/></radialGradient>
+  <rect width="1280" height="640" fill="url(#halo)"/>
+  <g stroke="#7cdb9a" stroke-width="3" fill="none" opacity=".7"><path d="M36,76 V36 H76"/><path d="M1204,36 H1244 V76"/><path d="M36,564 V604 H76"/><path d="M1204,604 H1244 V564"/></g>
+  <text x="80" y="128" class="mono" font-size="24" letter-spacing="3" fill="#8a938b">WICKEDSONI / <tspan fill="#ffb4a6">WEBBANKING</tspan></text>
+  <text x="80" y="232" class="sans" font-size="92" font-weight="800" letter-spacing="-2" fill="#e1e3de">Demo Bank</text>
+  <text x="80" y="300" class="sans" font-size="34" fill="#c0c9c0">A Kotlin/Kobweb banking app built to</text><text x="80" y="344" class="sans" font-size="34" fill="#c0c9c0">show software testing end to end.</text>
+  <g transform="translate(80,452)"><rect width="112" height="46" rx="23" fill="#ffb4a6" fill-opacity=".12" stroke="#ffb4a6" stroke-opacity=".5" stroke-width="2"/><text x="56" y="30" text-anchor="middle" class="mono" font-size="20" fill="#ffb4a6">Kobweb</text></g><g transform="translate(206,452)"><rect width="124" height="46" rx="23" fill="#ffb4a6" fill-opacity=".12" stroke="#ffb4a6" stroke-opacity=".5" stroke-width="2"/><text x="62" y="30" text-anchor="middle" class="mono" font-size="20" fill="#ffb4a6">JUnit 5</text></g><g transform="translate(344,452)"><rect width="136" height="46" rx="23" fill="#ffb4a6" fill-opacity=".12" stroke="#ffb4a6" stroke-opacity=".5" stroke-width="2"/><text x="68" y="30" text-anchor="middle" class="mono" font-size="20" fill="#ffb4a6">Selenium</text></g>
+  <g transform="translate(985,318) scale(1.9) translate(-120,-124)">
+  <ellipse cx="120" cy="226" rx="52" ry="7" fill="#000" opacity=".35"/>
+  <g class="s-float">
+    <use href="#s-body" filter="url(#s-tintA)" class="s-ghostA" opacity="0"/>
+    <use href="#s-body" filter="url(#s-tintB)" class="s-ghostB" opacity="0"/>
+    <g class="s-jit"><use href="#s-body"/></g>
+  </g></g>
+  <text x="1244" y="590" text-anchor="end" class="mono" font-size="18" fill="#8a938b">garvitmaheshwari.in</text>
+</svg>

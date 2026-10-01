@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Ping avatar">
+<title>Ping avatar</title>
+<defs><style>.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
+  <linearGradient id="a-neon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#98f7b4"/><stop offset="1" stop-color="#2f9c62"/></linearGradient>
+  <linearGradient id="a-core" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d231e"/><stop offset="1" stop-color="#0b0f0c"/></linearGradient>
+  <filter id="a-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="a-soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feComponentTransfer in="b" result="b2"><feFuncA type="linear" slope=".55"/></feComponentTransfer><feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="a-tintA"><feFlood flood-color="#ff6b8b"/><feComposite operator="in" in2="SourceAlpha"/></filter>
+  <filter id="a-tintB"><feFlood flood-color="#5ce1ff"/><feComposite operator="in" in2="SourceAlpha"/></filter>
+  <g id="a-body">
+  <g class="a-thrust" fill="none" stroke="#7cdb9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110,172 l10,7 l10,-7" opacity=".8"/><path d="M113,183 l7,5 l7,-5" opacity=".5"/><path d="M116,193 l4,3 l4,-3" opacity=".3"/>
+  </g>
+  <rect x="118" y="70" width="4" height="18" rx="2" fill="#404943"/>
+  <path d="M110.10,60.10 A14,14 0 0 1 129.90,60.10" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="a-arc" style="animation-delay:0s"/><path d="M103.03,53.03 A24,24 0 0 1 136.97,53.03" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="a-arc" style="animation-delay:0.25s"/><path d="M95.96,45.96 A34,34 0 0 1 144.04,45.96" fill="none" stroke="#7cdb9a" stroke-width="5" stroke-linecap="round" class="a-arc" style="animation-delay:0.5s"/>
+  <circle cx="120" cy="70" r="6" fill="#98f7b4" filter="url(#a-glow)"/>
+  <rect x="72" y="86" width="96" height="78" rx="24" fill="url(#a-core)" stroke="#2c332d" stroke-width="2"/>
+  <rect x="82" y="100" width="76" height="38" rx="14" fill="#050806" stroke="#7cdb9a" stroke-opacity=".4" stroke-width="1.5"/>
+  <rect x="86" y="103" width="30" height="5" rx="2.5" fill="#fff" opacity=".06"/>
+  <g fill="#98f7b4" stroke="#98f7b4" filter="url(#a-glow)"><g class="a-blink"><rect x="97" y="108" width="12" height="22" rx="6"/><rect x="131" y="108" width="12" height="22" rx="6"/></g></g>
+  <rect x="113" y="148" width="14" height="4" rx="2" fill="#7cdb9a" class="a-cursor"/>
+  <path d="M66,80 L42,124 L66,168" fill="none" stroke="url(#a-neon)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#a-soft)"/>
+  <path d="M174,80 L198,124 L174,168" fill="none" stroke="url(#a-neon)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#a-soft)"/>
+  <g class="a-bobL"><rect x="15" y="131" width="18" height="18" rx="6" fill="#1d231e" stroke="#7cdb9a" stroke-width="2.5"/><circle cx="24" cy="140" r="2.5" fill="#98f7b4"/></g><g class="a-bobR"><rect x="207" y="131" width="18" height="18" rx="6" fill="#1d231e" stroke="#7cdb9a" stroke-width="2.5"/><circle cx="216" cy="140" r="2.5" fill="#98f7b4"/></g></g></defs>
+
+  <rect width="512" height="512" fill="#101411"/>
+  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#7cdb9a" opacity=".14"/></pattern>
+  <rect width="512" height="512" fill="url(#dots)"/>
+  <radialGradient id="halo" cx="256" cy="256" r="250" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7cdb9a" stop-opacity=".28"/><stop offset=".7" stop-color="#7cdb9a" stop-opacity=".04"/><stop offset="1" stop-color="#7cdb9a" stop-opacity="0"/></radialGradient>
+  <rect width="512" height="512" fill="url(#halo)"/>
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#7cdb9a" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 10"/>
+  <g transform="translate(256,262) scale(1.75) translate(-120,-124)">
+  <ellipse cx="120" cy="226" rx="52" ry="7" fill="#000" opacity=".35"/>
+  <g class="a-float">
+    <use href="#a-body" filter="url(#a-tintA)" class="a-ghostA" opacity="0"/>
+    <use href="#a-body" filter="url(#a-tintB)" class="a-ghostB" opacity="0"/>
+    <g class="a-jit"><use href="#a-body"/></g>
+  </g></g>
+</svg>
