@@ -13,7 +13,7 @@
 </style></defs>
 <rect x=".5" y=".5" width="599" height="259" rx="18" fill="#161b17" stroke="#2c332d"/>
 <text x="28" y="42" class="mono" font-size="13" letter-spacing="2" fill="#7cdb9a">▍TOP_LANGUAGES</text>
-<text x="572" y="42" text-anchor="end" class="mono" font-size="11" fill="#8a938b">updated 2026-10-03</text>
+<text x="572" y="42" text-anchor="end" class="mono" font-size="11" fill="#8a938b">updated 2026-10-04</text>
 <clipPath id="bar"><rect x="28" y="64" width="544" height="14" rx="7"/></clipPath><rect x="28" y="64" width="544" height="14" rx="7" fill="#2c332d"/><g clip-path="url(#bar)"><rect x="28.0" y="64" width="437.8" height="14" fill="#A97BFF" class="grow" style="animation-delay:0.15s"/><rect x="465.8" y="64" width="55.4" height="14" fill="#3178c6" class="grow" style="animation-delay:0.25s"/><rect x="521.1" y="64" width="29.5" height="14" fill="#3572A5" class="grow" style="animation-delay:0.35s"/><rect x="550.6" y="64" width="8.7" height="14" fill="#e34c26" class="grow" style="animation-delay:0.45000000000000007s"/><rect x="559.4" y="64" width="4.5" height="14" fill="#f1e05a" class="grow" style="animation-delay:0.55s"/><rect x="563.9" y="64" width="3.9" height="14" fill="#DA5B0B" class="grow" style="animation-delay:0.65s"/></g><g class="in" style="animation-delay:0.4s" transform="translate(28,118)">
       <circle cx="6" cy="-5" r="6" fill="#A97BFF"/>
       <text x="20" y="0" class="sans" font-size="15" fill="#e1e3de">Kotlin</text>
